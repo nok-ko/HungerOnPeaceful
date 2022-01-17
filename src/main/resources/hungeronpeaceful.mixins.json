@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nokko.hungeronpeaceful.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "HungerManagerMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
